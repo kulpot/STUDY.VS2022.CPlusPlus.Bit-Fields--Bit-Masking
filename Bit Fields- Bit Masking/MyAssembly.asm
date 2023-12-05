@@ -352,6 +352,17 @@ doit proc			; proc -- procedure
 	; ------------------------------------- Bit Fields- Bit Masking ------------------------------------------
 	; ref link:https://www.youtube.com/watch?v=I4IIzqikc7w&list=PLRwVmtr-pp06-8kzgl6j-hp7JSd829ro2&index=23
 
+	; Masking -> Guessing
+
+	;     _________________
+	;     | | | | | | | | |
+	;     -----------------
+	; and  0 0 1 0 0 0 0 0
+	; ---------------------
+	;      0 0 1 0 0 0 0 0   false not equal to 0 (!=0)
+
+
+
 
 
 
